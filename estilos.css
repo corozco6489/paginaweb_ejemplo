@@ -1,0 +1,244 @@
+.formulario {
+  margin: auto;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.textareas {
+  margin: auto;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.botonenviar {
+  cursor: pointer;
+  background: rgb(240, 90, 31);
+  width: 250px;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .botonenviar {
+    cursor: pointer;
+    background: rgb(31, 240, 48);
+  }
+  .formulario {
+    margin: auto;
+  }
+  .textareas {
+    margin: auto;
+  }
+}
+
+.btn__container {
+    margin-top: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn__container a {
+  margin-right: 10px;
+}
+.btn {
+  min-width: 110px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #c71e7e;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.btn i {
+  color: #df3796;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn span {
+  font-family: Roboto, sans-serif;
+  align-self: center;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.btn:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: linear-gradient(to right, #ff3019 0, #c90477 100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn:hover i {
+  -webkit-transform: translateX(45px);
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.btn:hover span {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  opacity: 0;
+}
+.btn:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-f {
+  min-width: 110px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #286ed6;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.btn-f i {
+  color: #286ed6;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-f span {
+  font-family: Roboto, sans-serif;
+  align-self: center;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.btn-f:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: #286ed6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn-f:hover i {
+  -webkit-transform: translateX(45px);
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.btn-f:hover span {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  opacity: 0;
+}
+.btn-f:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-y {
+  min-width: 110px;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: red;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.btn-y i {
+  color: red;
+  font-size: 20px;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-y span {
+  font-family: Roboto, sans-serif;
+  align-self: center;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.btn-y:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: red;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.btn-y:hover i {
+  -webkit-transform: translateX(45px);
+  transform: translateX(45px);
+  padding-right: 0;
+  color: #fff;
+}
+.btn-y:hover span {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  opacity: 0;
+}
+.btn-y:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+body {
+    margin: 0;
+  }
+  .container1 {
+      border: 1rem solid red;
+    height: 50px;    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .content {
+    font-family: Arial;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(255,255,255, .8);
+  }
+
+  .waves {
+    position: absolute;
+/*      left: 0;
+    right: 0;
+    height: 200px;
+    bottom: 0;*/
+    bottom: -135px;
+    height: 527px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .wave {
+    position: absolute;
+    left: -180px;
+    bottom: 0;
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*width: 100%;*/
+    /*border-radius: 50%;*/
+    /*background:rgba(0,0,0, .3);*/
+    width: 2402px;
+    height: 427px;
+    background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+    animation: 5s wave ease-in-out infinite alternate;
+  }
+  .wave.a {
+    background-position: 0 -854px;
+  }
+  .wave.b {
+    background-position: 0 -427px;
+    animation-delay: .6s;
+  }
+  .wave.c {
+    background-position: 0 0;
+    animation-delay: 1.2s;
+  }
+  /*.container {
+    position: absolute;
+  }*/
+  @keyframes wave {
+    0% {
+      transform: translate(0 , 0);
+    }
+    50% {
+      transform: translate(-80px, 30px);
+    }
+    100% {
+      transform: translate(160px, -60px);
+    }
+  }

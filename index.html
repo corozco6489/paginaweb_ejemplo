@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="alertifyjs/css/alertify.css">
+    <link rel="stylesheet" href="alertifyjs/css/alertify.min.css">
+    <script src="alertifyjs/alertify.min.js"></script>
+    
+  </head>
+  <body>
+    <section class="inicio">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs|sm|md|lg|xl-1-12">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+              <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Carlos Orozco</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#presentacion"
+                      >Inicio</a
+                    >
+                    <a class="nav-link text-white" href="#redessociales">Mensajes</a>
+                    <a class="nav-link text-white" href="#proyectos">Mis Proyectos</a>
+                    <a class="nav-link text-white" href="https://github.com/corozco6489" target="_blank" >Mi Repositorio</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="usuario text-center">
+      <div class="container m-5 p-5">
+        <div class="row">
+          <div class="col-12 col-md-6">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://www.becas-santander.com/content/dam/becasmicrosites/blog/metodolog%C3%ADas-de-desarrollo-de-software.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.galileo.edu/trends-innovation/wp-content/uploads/2019/10/ET1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://serviciostecnicosmovil.com/wp-content/uploads/2020/06/ingenieria-electronica-de-microprocesadores-peq.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
+          </div>
+          <div class="col-12 col-md-6">
+            <h1 class="display-4 mt-3">Quienes Somos?</h1>
+            <p class="mt-3 text-center">
+              Hola soy un estudiante de ingenieria, en esta vez te presento un ejemplo basico de como crear una pagina web desde cero y subirlo a un dominio gratuito de prueba, espero te seirva para seguir aprendiendo cosas nuevas.
+            </p>
+           <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ"  target="_blank" class="btn btn-success" style="width: 200px;">Visitar Canal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentacion" id="presentacion">
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="imagenes/slider/channels4_profile.jpg"
+              alt=""
+              class="imagenfisei rounded-circle mt-4 mx-3" width="300"
+            />
+            <p class="text-white mt-3">
+              ✅ Videos relacionados a la carrera de Ingeniería Electrónica y Comunicaciones ✅
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proyectos mt-5" id="proyectos">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center m-3">Mis Proyectos</h1>
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="imagenes/embo.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto PLCs Embatelladora</h5>
+                <p class="card-text">
+                  Sistema de embotellamiento de líquidos utilizando TIA portal, Factory IO . Diseño de un HMI en tía portal con los requerimientos mínimos de escritura y lectura de variables, simulación de movimientos en la pantalla y uso de graficas.
+                </p>
+                <a href="https://youtu.be/Pst41ZrJk_s"  target="_blank" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/ggbvBrWL8fM/maxresdefault.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">ChatBot con Telegram y Arduino usando Nodejs</h5>
+                <p class="card-text">
+                  Alarma de seguridad contra robo por medio un chat Bot utilizando Arduino, esp32cam controlado desde Telegram.
+
+                </p>
+                <a href="https://youtu.be/Vg7jWmY2d4s"   target="_blank" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/ka0Kj7PMWKQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD6VEQLF8dJYMv9xyLRYq6TDoPhiQ" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Comunicaiòn Modbus</h5>
+                <p class="card-text">
+                  Conexión mediante modbus TCP/IP con simulación de FACTORY IO e interfaz gráfica en nodred mediante modbus (RTU o ASCII)
+                </p>
+                <a href="https://youtu.be/4E6TmGcABlQ"  target="_blank" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Matlab : Modulaciòn PCM</h5>
+                <p class="card-text">
+                  Proceso de muestreo cuantificación y codificación resolución de un fragmento de sonido utilizando PCM en Matlab
+modulación pcm en Matlab a una señal de voz
+                  
+                </p>
+                <a href="#" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/12cHkBRj3QY/maxresdefault.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Procesamiento de Imagenes Matlab</h5>
+                <p class="card-text">
+                  Modulaciones Digitales M_ASK, M_FSK, M_PSK, M_QAM, 64 bits  de la TX de imágenes de 5 formatos: gif, png, jpg, entre otros .
+                </p>
+                <a href="https://www.youtube.com/watch?v=12cHkBRj3QY" target="_blank"  class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/SNMZ-yuhTmY/maxresdefault.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Códigos de Líneas</h5>
+                <p class="card-text">
+                  Códigos de Líneas realizado en una interfza guide de Matlab.
+                </p>
+                <a href="https://www.youtube.com/watch?v=3GC84iirOxY" target="_blank" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://lh3.googleusercontent.com/proxy/cPrepb6Qqx-R2qrcFiM-m8jEG5Cm8tvZ-duiIEwbXBxsYj2tt__IbNu_KZL4rafNlOAB3ZLOHbQIkSHGw-OcD0CeScwbC7ZQZi2VFaeCv7hm5e9qYuMo2g3j77fgg8U4FirBSwzbLDGq"  class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Procesamiento de imágenes en MATLAB:OCR Basics</h5>
+                <p class="card-text">
+                  Programa que permite decodificar los caracteres de una imagen.
+el programa decodifica palabras mayusculas , minusculas y numeros incluido los espacios.
+                </p>
+                <a href="https://www.youtube.com/watch?v=TeaqR7UYb9g" target="_blank" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://d1zx6djv3kb1v7.cloudfront.net/wp-content/media/2020/05/CRUD-OPERATION-WITH-MYSQL-DATABASE-USING-PYTHON-i2tutorials.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">CRUD Basico en Python</h5>
+                <p class="card-text">
+                  Crud basico utilizando Pyhton y MySQL.
+                </p>
+                <a href="https://youtu.be/mMn3dx-UZ8Q" target="_blank" class="btn btn-primary">Ver Video</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://i9.ytimg.com/vi/0FnftVM3MMA/mq2.jpg?sqp=CJSUrooG&rs=AOn4CLDPAwzDc6-EaJ1rnatb8iM65k0YXw" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">CRUD,  PHP, MySQL, Bootstrap y JavaScript</h5>
+                <p class="card-text">
+                  Aplicación de escritorio conectada a MYSQL como base de datos SQL.CRUD (CREATE, READ, UPDATE. DELETE) usando conceptos de JavaScript , HTML y CSS.
+                </p>
+                <a href="#" class="btn btn-primary" target="_blank">Ver Video</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="registrase mt-5">
+      <div class="container-fluid bg-dark text-center">
+        <div class="row">
+
+            <h1 class="text-white text-center mt-3">Mensajes</h1>
+            
+            
+            <div class="text-center">                      
+              <form action="javascript:void(0);" method="post" onsubmit="aplicacion.Agregar()">
+                    <div class="form-group formulario text-center">
+                      <label for="exampleFormControlInput1"></label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                    </div>
+                    
+                    
+                    <div class="form-group textareas">
+                      <label for="exampleFormControlTextarea1"></label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    </div>
+
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary mt-5 botonenviar text-center">Enviar</button>
+                  </div>
+
+              </form>
+
+            </div>
+           
+      
+
+              
+                    
+           
+                
+              
+                    
+            
+
+             
+        
+            
+
+            
+          </div>
+       
+      </div>
+    </section>
+
+
+    <section class="redessociales bg-dark text-center py-2" id="redessociales">
+
+        <div class="btn__container mx-5">
+            <div class="row">
+
+                <h1 class="text-center text-white">Siguenos en nuestras redes sociales</h1>
+
+                <div class="col-12 px-5 mt-3 col-md-4">
+                    <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" class="btn" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                        <span>instagram</span>
+                        </a>
+    
+                </div>
+                <div class="col-12 px-5 mt-3 col-md-4">
+                    <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" class="btn-f" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                        <span>facebook</span>
+                        </a>
+                </div>
+                <div class="col-12 px-5 mt-3 col-md-4">
+                    <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" class="btn-y" target="_blank">
+                        <i class="fa fa-youtube"></i>
+                        <span>youtube</span>
+                        </a>
+                </div>
+               
+                
+            </div>
+           
+           
+            
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="0.98" d="M0,96L26.7,117.3C53.3,139,107,181,160,176C213.3,171,267,117,320,112C373.3,107,427,149,480,176C533.3,203,587,213,640,224C693.3,235,747,245,800,218.7C853.3,192,907,128,960,101.3C1013.3,75,1067,85,1120,112C1173.3,139,1227,181,1280,170.7C1333.3,160,1387,96,1413,64L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+
+
+    </section>
+ 
+<script src="index.js"></script>
+  
+  </body>
+</html>
