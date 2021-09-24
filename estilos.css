@@ -242,3 +242,113 @@ body {
       transform: translate(160px, -60px);
     }
   }
+
+  ::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.conteiner1{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto 0;
+    perspective: 1000px;
+    position: relative;
+    
+}
+
+.cube{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: spin 5s infinite linear;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: crimson;
+    border: 2px solid #fff;
+   
+}
+.top{
+    transform: rotateX(90deg) translateZ(100px);
+    background-image: url('https://parlamentoandino.org/images/actualidad/noticias/2021/05/P-Da-Mundial-de-las-Telecomunicaciones-y-la-Sociedad-de-la-Informacin.jpg') ;
+    background-size: cover;
+    
+    
+
+    
+   
+   
+}
+.bottom{
+    transform: rotateX(-90deg) translateZ(100px);
+    background-image: url('https://portal.ejes.com/img/noticias/2021/03/celulares_telefonia_internet.jpg') ;
+    background-size: cover;
+
+ 
+  
+   
+}
+
+.right{
+    transform: rotateY(90deg) translateZ(100px);
+
+    background-image: url('https://www.formados.ec/wp-content/uploads/2019/04/software.jpg') ;
+    background-size: cover;
+
+   
+  
+   
+}
+
+.left{
+    transform: rotateY(-90deg) translateZ(100px);
+  
+    background-image: url('https://www.redeszone.net/app/uploads-redeszone.net/2021/05/vulnerabilidad-critica-python.jpg?x=480&y=375&quality=40') ;
+    background-size: cover;
+
+    
+
+   
+}
+.front{
+    transform: translateZ(100px);
+    
+    background-image: url('https://unicit.edu.ni/wp-content/uploads/2017/06/16.jpg') ;
+    background-size: cover;
+   
+   
+   
+   
+ 
+}
+.back{
+    transform: translateZ(-100px);
+  
+    background-image: url('https://www.galileo.edu/trends-innovation/wp-content/uploads/2019/10/ET1.jpg') ;
+    background-size: cover;
+
+   
+   
+}
+
+@keyframes spin{
+    from{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.titulo{
+  color: rgb(243, 21, 21);
+}
+
+

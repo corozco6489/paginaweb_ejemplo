@@ -1,4 +1,4 @@
-var url = "http://localhost/paginaweb/";
+var url = "http://thingslearned.rf.gd/php/";
 
 var aplicacion = new function(){
 
